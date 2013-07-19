@@ -6,13 +6,12 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.json.simple.JSONObject;
+ 
 
 import src.utils.DBManager;
 
@@ -65,8 +64,6 @@ public class login extends HttpServlet {
 				obj.put("Response", "Invalid");
 				System.out.println("Invalid login.");
 			}
-		} catch (JSONException e) {
-			e.printStackTrace();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
