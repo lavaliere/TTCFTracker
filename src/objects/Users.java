@@ -43,7 +43,7 @@ public class Users implements Serializable{
 	private int  Ex10Act = 0;
 	
 	/* Methods */
-	public boolean enterData(User user, Wod wod){
+	public boolean enterData(Users user, Wod wod){
 		Statement st = null;
 		ResultSet rs = null;
 		Connection conn = null;
@@ -102,6 +102,12 @@ public class Users implements Serializable{
 	}
 	
 	
+	private String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 	/* Getters */
 	public int getUserID() {
 		return userID;
