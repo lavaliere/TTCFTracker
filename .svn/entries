@@ -1,52 +1,0 @@
-10
-
-dir
-0
-https://github.com/lavaliere/TTCFTracker.git
-https://github.com/lavaliere/TTCFTracker.git
-
-
-
-2013-06-23T22:09:12.000000Z
-0
-
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-64e4bd07-0cfd-f362-d25d-ce57b7db7bff
-
-
-
-
-
-
-
-
-((conflict 8 .project dir update added added (version https://github.com/lavaliere/TTCFTracker.git 1 0 8 .project dir) (version https://github.com/lavaliere/TTCFTracker.git 2 14 8 .project dir)))
-
-.classpath
-dir
-
-.project
-dir
-
-.settings
-dir
-
-WebContent
-dir
-
-src
-dir
-

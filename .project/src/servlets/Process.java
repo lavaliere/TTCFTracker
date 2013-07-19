@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import org.json.simple.JSONObject;
+
 
 import src.objects.Users;
 import src.objects.Wod;
@@ -131,8 +131,6 @@ public class Process extends HttpServlet {
 				obj.put("Response", "failed");
 				System.out.println("Failed save attempt.");
 			}
-		} catch (JSONException e) {
-			e.printStackTrace();
 		}finally{
 			
 		}
