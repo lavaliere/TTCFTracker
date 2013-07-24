@@ -6,6 +6,7 @@
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -49,5 +50,4 @@
 			<version>6.0.26</version>
 		</dependency>
    </dependencies>
-  
 </project>

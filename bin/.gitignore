@@ -1,6 +1,9 @@
+/.DS_Store
 /.classpath
 /.project
 /.settings
 /WebContent
+/pom.properties
+/pom.xml
 /src
 /target
