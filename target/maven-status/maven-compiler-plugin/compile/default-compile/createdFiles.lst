@@ -1,7 +1,0 @@
-src/objects/Wod.class
-src/utils/HTMLUtilities.class
-src/objects/Users.class
-src/servlets/Email.class
-src/utils/DBManager.class
-src/servlets/Process.class
-src/servlets/login.class
