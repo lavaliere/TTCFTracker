@@ -6,14 +6,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Date;
 
+import org.apache.catalina.User;
+
 import src.utils.DBManager;
 import java.io.Serializable;
 
 public class Users implements Serializable{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private int userID = 0;
 	private String first = "";
 	private String last = "";
